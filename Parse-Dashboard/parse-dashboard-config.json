@@ -1,10 +1,10 @@
 {
   "apps": [
     {
-      "serverURL": "http://localhost:1338/parse",
-      "appId": "hello",
-      "masterKey": "world",
-      "appName": "",
+      "serverURL": "http://localhost:1337/parse",
+      "appId": "3wu7Le29R1ZKC4eeEmzS0j1fDCkaqH6WdJkmcuHS",
+      "masterKey": "y8JrWrVb3OGAXAbtnsgvIVNuWuOxtppHNMa1gN0q",
+      "appName": "Ingenioo",
       "iconName": "",
       "primaryBackgroundColor": "",
       "secondaryBackgroundColor": ""

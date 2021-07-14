@@ -18,11 +18,11 @@ export default class CodeEditor extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { code: '' };
+    this.state = { code: undefined };
   }
 
   get value() {
-    return this.state.code || this.props.placeHolder;
+    return this.state.code ?? this.props.placeHolder;
   }
 
   set value(code) {
@@ -43,7 +43,7 @@ export default class CodeEditor extends React.Component {
         showGutter={true}
         highlightActiveLine={true}
         width="100%"
-        value={code || placeHolder}
+        value={code ?? placeHolder}
         enableBasicAutocompletion={true}
         enableLiveAutocompletion={true}
         enableSnippets={false}
