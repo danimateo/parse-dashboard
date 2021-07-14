@@ -117,7 +117,6 @@
     "lint": "eslint . --ignore-path .gitignore --cache",
     "pretest": "npm run lint",
     "generate": "node scripts/generate.js",
-    "prepare": "webpack --config webpack/publish.config.js --progress",
     "server": "node server.js",
     "start": "node ./Parse-Dashboard/index.js"
   },
